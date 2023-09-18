@@ -29,7 +29,7 @@
 > ![image](https://github.com/magicman517/windows-post-installation/assets/64162075/b868684c-41e1-42e9-b877-e3a8cf1722f8)
 
 > ## Debloat
->> I always use [ShutUp10](https://www.oo-software.com/en/shutup10)
+>> I always use [ShutUp10](https://www.oo-software.com/en/shutup10)  
 >> You can install it using **winget**
 >> ```ps1
 >> winget install OO-Software.ShutUp10 -s winget

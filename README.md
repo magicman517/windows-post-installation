@@ -37,14 +37,14 @@
 
 > ## Disable UAC, Firewall
 > ## Do this only if you understand the risks. You are liable for the outcome!
->> ### Disable **UAC**
+>> ## Disable **UAC**
 >> ### Run the **Terminal (PowerShell)** with administrator privileges.
 >> ### Run this command  
 >> ```ps1
 >> Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ConsentPromptBehaviorAdmin" -Value 0
 >> ```
 >>
->> ### Disable **Windows Firewall**
+>> ## Disable **Windows Firewall**
 >> ### Run the **Terminal (PowerShell)** with administrator privileges
 >> ### Run this command
 >> ```ps1
@@ -52,7 +52,7 @@
 >> ```
 
 > ## Perfomance
->> ### Disable **background apps**
+>> ## Disable **background apps**
 >> ### Run the **Terminal (PowerShell)** with administrator privileges
 >> ### Run this command  
 >> ```ps1
@@ -70,9 +70,9 @@
 >> * Threaded Optimization - If you are CPU bottlenecked, choose the **Off** option
 >> * Vertical sync - Off
 >> 
->> #### Configure **explorer** and **dwm**
+>> ### Configure **explorer** and **dwm**
 >> #### Go to **Manage 3D settings -> Program Settings -> Add -> Browse**
->> #### **Open the local disk on which Windows is installed/Windows/explorer**  
+>> #### **Open the local disk on which Windows is installed/Windows/explorer.exe**  
 >> ![image](https://github.com/magicman517/windows-post-installation/assets/64162075/3aff284f-47b3-4f93-8ba9-53cc71daa190)
 >> #### Set **Power management mode** - Prefer maximum perfomance
 >>
